@@ -1,3 +1,9 @@
+// **************************************************************************************************************************************************************************
+//                                                                               Projeto do, re, mi, fa
+//      Bem vindo ao projeto, foi utilizado um buzzer, protoboard e um aduino uno. O intuito desse projeto é fazer com que o buzzer toque as notas musicais em loop.
+// **************************************************************************************************************************************************************************
+
+
 int buzzer = 8;//Atribui o valor 8 a variavel buzzer, que representa o pino digital 8, onde o buzzer está conectado
 
 void setup() 
