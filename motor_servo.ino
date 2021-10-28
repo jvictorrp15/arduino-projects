@@ -1,3 +1,8 @@
+// **************************************************************************************************************************************************************************
+//                                                                               Projeto de motor servo
+//      Bem vindo ao projeto, foi utilizado um motor servo, protoboard e um aduino uno. O intuito desse projeto é fazer com que o motor servo funcione.
+// **************************************************************************************************************************************************************************
+
 #include <Servo.h>
 
 #define SERVO 6 // Porta Digital 6 PWM
@@ -17,12 +22,12 @@ void loop()
   for(pos = 0; pos < 90; pos++)
   {
     s.write(pos);
-  delay(15);
+  delay(15); // Não zere o delay
   }
 delay(1000);
   for(pos = 90; pos >= 0; pos--)
   {
     s.write(pos);
-    delay(15);
+    delay(15); // Não zere o delay
   }
 }
