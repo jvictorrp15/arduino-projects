@@ -1,3 +1,8 @@
+// **************************************************************************************************************************************************************************
+//                                                   Projeto ativação de motor de passo através da do sensor de umidade e temperatura
+//      Bem vindo ao projeto, foi utilizado um motor de passo, um sensor de umidade, protoboard e um arduino uno. O intuito desse projeto é fazer com que o motor de passo
+// seja acionado através da umidade captada do ambiente pelo sensor de umidade.
+// **************************************************************************************************************************************************************************
 
 #include "dht.h" //INCLUSÃO DE BIBLIOTECA
 #include <Stepper.h>   //biblioteca para controle de motor de passo
