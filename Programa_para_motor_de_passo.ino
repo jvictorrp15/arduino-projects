@@ -1,4 +1,7 @@
-// Programa para motor de passo
+// **************************************************************************************************************************************************************************
+//                                                                               Projeto motor de passo
+//      Bem vindo ao projeto, foi utilizado um motor de passo, protoboard e um aduino uno. O intuito desse projeto é fazer com que o motor de passo funcione.
+// **************************************************************************************************************************************************************************
 // ========================================================================================================
 // --- Bibliotecas Auxiliares ---
 #include <Stepper.h>   //biblioteca para controle de motor de passo
@@ -29,6 +32,7 @@ void setup()
 {
     // set the speed at 60 rpm:
   myStepper.setSpeed(60);
+    // never put more them 120 rpm in this topic;
   
 
 } //end setup
